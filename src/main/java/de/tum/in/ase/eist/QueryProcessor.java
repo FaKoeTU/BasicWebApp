@@ -18,7 +18,7 @@ public class QueryProcessor {
             int biggest = 0;
             //%20which%20of%20the%20following%20numbers%20is%20the%20largest:%2021,%2097,%201,%20289"
             for(int i = 0; i < result[1].length(); i++){
-                        int value = Integer.parseInt(result[i].split(",")[0]);
+                        int value = Integer.parseInt(result[1].split(",")[i]);
                         if(value>biggest) {
                             biggest = value;
                         }
