@@ -31,5 +31,6 @@ public class QueryProcessor {
             }
             return Integer.toString(biggest);
         }
+        return "";
     }
 }
